@@ -23,8 +23,8 @@ namespace Homework_1
              float+
              int+
              long+
-             sbyte
-             short +
+             sbyte+
+             short+
              */
             #region int
             int a = 37471;
@@ -43,7 +43,7 @@ namespace Homework_1
 
 
             #region double
-            double d = 23.4234;
+            double d = 23.4234D;
             double z = 3882.398;
             double x = d / z;
             Console.WriteLine(x);/* Double kesr edeler ucun istf olunan data tipidir.  
@@ -66,7 +66,7 @@ namespace Homework_1
 
 
             #region long
-            long l = 9223372075807; /* tam ededler ucun istifade edilir. 8 byte-a qeder hecme sahibdir.
+            long l = 9223372075807; /* tam ededler ucun istifade edilir. 8 byte yere sahibdir.
                         Deyer araligi: -9,223,372,036,854,775,807 --- 9,223,372,036,854,775,807
 
                                    */
@@ -124,7 +124,7 @@ namespace Homework_1
             decimal dc = 3322;
             decimal dcc = 4596969.5584m;
             decimal decMinValue = decimal.MinValue;
-            decimal decMaxValue = decimal.MaxValue;/* 16 byte yer yer tutur. 
+            decimal decMaxValue = decimal.MaxValue;/* 16 byte yer tutur. 
                                                     tam ve kesr edeler ucun istifade oluna biler.
             
                                          */

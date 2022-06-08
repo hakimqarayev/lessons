@@ -109,11 +109,13 @@ namespace Homework_1
             Console.WriteLine(l +=l);
             bool equalsLong = long.Equals(l,l2);
             
-            string value ="Hi";
-           
+          
+
             #endregion
 
             #region Date time 
+            DateTime nowTime = DateTime.Now;//local time
+
             DateTime date = new DateTime(2022,4,13,23,32,24,12);
 
             DateTime addDays = date.AddDays(12);

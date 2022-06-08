@@ -22,6 +22,7 @@ namespace Homework_2
             int age yazilishi duzgundur.
              */
             int age = 22;
+            int AGE = 23;
            
             /*
              2. Deyisen adlari ya herf ya da _ isaresi ile yazilmalidir.

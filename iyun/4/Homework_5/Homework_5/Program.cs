@@ -19,14 +19,14 @@ namespace Homework_5
                                    Sonradan qiymeti metod daxilinde 
                                    verilir. 
                                    */
-
+        double dd = 12;
         static void Main(string[] args)
         {
             int i = 5;// local variable. sadece içində olduğu block-da istifadə oluna bilər
                       /* local və global olaraq iki eyni adlı dəyişən yaradıb, local dəyişənin daxil olduğu block-da
                       o dəyişəni çağırdıqda(Məsələn Console.VVriteLine(i); ötürsək) üstünlük local dəyişəndə olur. 
                      */
-
+            
            {
                 int localVar = 134;// localVar2 ve localVar3 deyisenleri ucun global deyisendir.
 
@@ -40,6 +40,5 @@ namespace Homework_5
                 }
             }
         }
-       
     }
 }

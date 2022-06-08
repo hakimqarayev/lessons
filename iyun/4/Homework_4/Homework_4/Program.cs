@@ -20,7 +20,7 @@ namespace Homework_4
             /*
                 C#-da dəyişən tipləri 2 yere ayrılır. Primitive(Value) və Reference type data tiplər. 
              Value types - özündə yalnızca qiymət və məlumat daşıyan dəyişən tipləridir.
-             Program başlayanda bu tiplərin birbaşa dəyəri RAM-ın stack sahəsində saxlanılır. 
+             Program başlayanda bu tiplərin dəyəri birbaşa RAM-ın stack sahəsində saxlanılır. 
              Və hər bir tip üçün öncədən ölçü təyin edilmişdir.
               
                 int tipi, C Sharp-da ən çox istifadə edilən tam ədəd tiplərindən biridir.
@@ -52,7 +52,7 @@ namespace Homework_4
 
 
                 Double - kesr ədədlər üçün istifadə olunan data tipidir. Kesr hissesinden sonra 15-17 rəqəm 
-             istifadə olunar. C#-da kəsr tip deyiləndə default olaraq double tip götürülür.
+             istifadə oluna bilər. C#-da kəsr tip deyiləndə default olaraq double tip götürülür.
              Yaddaşda 32 bitlik yer tutur. 
              Dəyər aralığı: -1.7976931348623157E+308 --- 1.7976931348623157E+308 
 
@@ -71,7 +71,7 @@ namespace Homework_4
             
             
                  Char - özündə tək hərf və ya simvol saxlayan data tipidir.
-             həcmi 16 bitdir. 
+             həcmi 16 bitdir. Adlandırma zamanı tək dırnaq işarəsindən istifadə olunur. ('')
 
 
 

@@ -39,9 +39,9 @@ namespace Homework_1
 
             #region 2nd
             
-            String name = "Adinizi daxil edin:";
-            String surName = "Soyadinizi daxil edin:";
-            String placeOfResidence = "Yasadiginiz seheri daxil edin:";
+            string name = "Adinizi daxil edin:";
+            string surName = "Soyadinizi daxil edin:";
+            string placeOfResidence = "Yasadiginiz seheri daxil edin:";
 
             Console.WriteLine(name);
             var n = Console.ReadLine();//to save the entered name

@@ -17,7 +17,7 @@ namespace Homowork_3
              Məsələn: Baki, Gence, Sumqayit...
              */
 
-            String name = "Seher adini daxil edin: ";
+            string name = "Seher adini daxil edin: ";
 
             Console.WriteLine("1-ci " + name);
             var one = Console.ReadLine();

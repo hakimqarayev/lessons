@@ -68,7 +68,6 @@ namespace Homework_1
             #region long
             long l = 9223372075807; /* tam ededler ucun istifade edilir. 8 byte yere sahibdir.
                         Deyer araligi: -9,223,372,036,854,775,807 --- 9,223,372,036,854,775,807
-
                                    */
             #endregion
 

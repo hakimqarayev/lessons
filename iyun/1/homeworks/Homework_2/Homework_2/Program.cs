@@ -26,7 +26,7 @@ namespace Homework_2
             Console.Clear();
 
 
-            string substing = hobbies.Substring(17, 5);
+            string substing = hobbies.Substring(26,6);// saymaga sifirdan bashalyir.
             Console.WriteLine(substing);
 
 

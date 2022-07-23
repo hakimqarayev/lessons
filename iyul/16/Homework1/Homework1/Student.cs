@@ -23,7 +23,7 @@ namespace Homework1
                     if (check)
                         this._name = value;
                     else
-                        Console.WriteLine("Ad daxil edilerken yalniz herflerden istifade edin!!!");
+                        Console.WriteLine("Ad daxil edilerken yalniz herflerden istifade edin!");
                 }
 
 
@@ -55,7 +55,7 @@ namespace Homework1
                     if (check)
                         this._surname = value;
                     else
-                        Console.WriteLine("Soyad daxil edilerken yalniz herflerden istifade edin!!!");
+                        Console.WriteLine("Soyad daxil edilerken yalniz herflerden istifade edin!");
                 }
 
 

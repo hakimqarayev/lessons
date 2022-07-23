@@ -27,7 +27,7 @@ namespace Homework1
         }
         public Test()
         {
-            Console.WriteLine("default");
+            Console.WriteLine("non-static");
         }
 
      

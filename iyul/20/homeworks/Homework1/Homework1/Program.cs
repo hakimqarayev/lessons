@@ -20,7 +20,9 @@ namespace Homework1
 
             /*
                Classda olan metodları, fieldləri propertyləri Classın objectini yaratmadan çağırmaq istəyiriksə 
-               bu zaman onlari static etməliyik. RAMın static sahəsində saxlanılır. Programin sonuna qede.....
+               bu zaman onlari static etməliyik. RAMın static sahəsində saxlanılır.
+               Static sahədə programın sonuna qədər saxlanılan 'static' keywordündən istifadə edilərək yaradılan obyektlər olur.
+
                Məsələn Main methodunun Program classının objecti yaradılmadan işləməsinin səbəbi static olmasıdır.
                Static methodun daxilinde static olmayan methodu çağıra bilmirik. Amma static olmayan methodun 
                daxilində static olanı çağıra bilirik.
@@ -46,7 +48,7 @@ namespace Homework1
              bir dəfə işləyəcək.
               */
             Test t = new Test(); new Test(); new Test();
-
+            //static constructor 1 defe, non static olan constructor ise 3 defe ise dusecek.
 
             Console.ReadLine();
         }

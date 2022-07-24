@@ -9,14 +9,14 @@ namespace Homework2
     class Helper
     {
 
-        public static string Welcome()
+        public static void Welcome()
         {
-            return "Xos Gelmisiniz";
+            Console.WriteLine("Xos Gelmisiniz");
         }
 
-        public static string ForgetPass()
+        public static void ForgetPass()
         {
-            return "Sifre deyisdirildi";
+            Console.WriteLine("Sifre deyisdirildi");
         }
     }
 }

@@ -9,12 +9,12 @@ namespace Homework2
     class Helper
     {
 
-        public static void Welcome()
+        public static void Welcome(string s)
         {
             Console.WriteLine("Xos Gelmisiniz");
         }
 
-        public static void ForgetPass()
+        public static void ForgetPass(string s)
         {
             Console.WriteLine("Sifre deyisdirildi");
         }

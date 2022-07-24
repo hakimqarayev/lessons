@@ -27,8 +27,8 @@ namespace Homework2
             st.Gender = 1;
 
 
-            Helper.Welcome();
-            Helper.ForgetPass();
+            Helper.Welcome(st.Email);
+            Helper.ForgetPass(st.Email);
 
         }
     }

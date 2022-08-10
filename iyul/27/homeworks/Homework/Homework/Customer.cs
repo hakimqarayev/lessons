@@ -36,8 +36,8 @@ namespace Homework
                 {
                     Console.WriteLine(a + "." + "Order ID: " + Orders[i].ID);
                     Console.WriteLine(a + "." + "Order Creation Date: " + Orders[i].CreateTime);
-                    Console.WriteLine(a + "." + "Shipping Address of the Order: " + Orders[i].ShippingAddress);
-                    Console.WriteLine(a + "." + "Shipping Info: " + Orders[i].InfoOrder);
+                    Console.WriteLine(a + "." + "Shipping Address of the Order: " + Orders[i].ShippingAddress.Distinct);
+                    Console.WriteLine(a + "." + "Order Info: " + Orders[i].InfoOrder);
                     Console.WriteLine();
                 }
                 else
@@ -57,7 +57,7 @@ namespace Homework
                     Console.WriteLine(a + "." + "Contact Number: " + Contacts[i].PhoneNumber);
                     Console.WriteLine(a + "." + "Contact Email: " + Contacts[i].Email);
                     Console.WriteLine(a + "." + "Contact CreateDate: " + Contacts[i].CreateDate);
-                    if (EditDate !=null)
+                    if (EditDate.HasValue)
                         Console.WriteLine(a + "." + "Editdate: " + Contacts[i].EditDate.Value.ToString("dd.MM.yyyy"));
                     else
                         Console.WriteLine("Data is not edited");

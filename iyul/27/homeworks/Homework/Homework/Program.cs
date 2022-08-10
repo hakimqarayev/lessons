@@ -93,9 +93,9 @@ namespace Homework
 
             customer.Orders[0] = new Order()
             {
-                ID = 1,
+                ID = 2,
                 InfoOrder = "Samsung Galaxy S9+, 500usd",
-                ShippingAddress = customer.Addresses[0],
+                ShippingAddress = customer.Addresses[1],
                 CreateTime = DateTime.Now
             };
 
@@ -103,6 +103,8 @@ namespace Homework
             customer.Orders[1] = orderMac;
 
             customer.ShowContact();
+            customer.ShowOrders();
+            customer.ShowAddress();
 
 
             Console.ReadLine();

@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="AbstractCalculator.cs" />
     <Compile Include="Calculator.cs" />
+    <Compile Include="Calculator2.cs" />
     <Compile Include="ICalculator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

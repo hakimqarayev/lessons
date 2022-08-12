@@ -11,11 +11,10 @@ namespace Homework
         static void Main(string[] args)
         {
             Calculator calculator = new Calculator();
-            calculator.Calc(12, 12, '-');
+            calculator.Calc(12, 12, '*');
 
-            ICalculator Icalculator = new Calculator();
-            Icalculator.ICalc(23, 2, '*');
-
+            Calculator2 calculator2 = new Calculator2();
+            calculator2.Calc(12, 13, '+');
             Console.ReadLine();
         }
     }

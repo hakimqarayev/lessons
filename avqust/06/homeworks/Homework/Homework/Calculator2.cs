@@ -6,29 +6,29 @@ using System.Threading.Tasks;
 
 namespace Homework
 {
-    public sealed class Calculator : AbstractCalculator
+    class Calculator2 : ICalculator
     {
-        public override int Addition(int a, int b)
+        public int Addition(int a, int b)
         {
             return a + b;
         }
 
-        public override int Division(int a, int b)
-        {
-            return a / b;
-        }
-
-        public override int Multiplication(int a, int b)
-        {
-            return a * b;
-        }
-
-        public override int Subtraction(int a, int b)
+        public int Subtraction(int a, int b)
         {
             return a - b;
         }
 
-        public override void Calc(int enterA, int enterB, char operation)
+        public int Multiplication(int a, int b)
+        {
+            return a * b;
+        }
+
+        public int Division(int a, int b)
+        {
+            return a / b;
+        }
+
+        public void Calc(int enterA, int enterB, char operation)
         {
             int? total = null;
 

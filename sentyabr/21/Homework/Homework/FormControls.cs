@@ -37,11 +37,6 @@ namespace WindowsFormsAppPart3
                         textBox.Text = string.Empty;
                     }
                 }
-
-            }
-            else
-            {
-
             }
         }
 
@@ -80,13 +75,17 @@ namespace WindowsFormsAppPart3
                     winNotification.ShowBalloonTip(4000);
 
                     winNotification.Icon = SystemIcons.Information;
-                }
-                else
-                {
 
+                    foreach (Control item in this.Controls)
+                    {
+                        if (item is TextBox)
+                        {
+                            TextBox textBox = (TextBox)item;
+                            textBox.Text = string.Empty;
+                        }
+                    }
                 }
             }
-
         }
 
 
